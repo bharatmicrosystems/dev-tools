@@ -358,3 +358,12 @@ function json2xml() {
         document.getElementById("output").value = "Invalid JSON! \n\n"+e;
    }
 }
+
+//toggles the sidebar menu arrow
+function toggleArrow(x) {
+   var z=document.getElementById("arrow");
+   console.log(z.classList)
+   if(z.classList.contains("fa-arrow-right"))
+       z.classList.toggle("fa-arrow-left");
+   else z.classList.toggle("fa-arrow-right");
+}

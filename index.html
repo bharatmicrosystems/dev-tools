@@ -19,6 +19,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="assets/css/jquery.numberedtextarea.css">
 </head>
 
 <body>
@@ -45,7 +46,7 @@
                 <p>Online tools for developers for their day to day use</p>
                 <p>This site contains client side javascript tools helping developers in Encoding and Decoding Base64 to String, Hex, URL etc</p>
                 <p>We do not store any data in our servers as the site completely runs on javascript</p>
-                <p>Source code : https://github.com/bharatmicrosystems/dev-tools</p>
+                <p>Source code : <a target="_blank" href="https://github.com/bharatmicrosystems/dev-tools">https://github.com/bharatmicrosystems/dev-tools</a></p>
                 <p>Please feel free to raise a Bug on github if you find an issue.</p>
             </div>
         </div>
@@ -61,7 +62,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
+    <!-- for textarea -->
+    <script src="assets/js/jquery.numberedtextarea.js"></script>
+    <script>
+        $('textarea').numberedtextarea();
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#sidebar").mCustomScrollbar({

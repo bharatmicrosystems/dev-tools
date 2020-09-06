@@ -19,6 +19,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="assets/css/jquery.numberedtextarea.css">
 </head>
 
 <body>
@@ -43,14 +44,14 @@
 			<h1>Hex Encode and Decode</h1>
 				<div class="container">
                     <div class="form-group">
-                        <textarea class="form-control" id="input" rows="8"></textarea>
+                        <textarea class="bg-light text-monospace form-control form-control-sm" id="input" rows="8"></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-primary" onclick="hexEncode()">Encode</button>
-                    <button class="btn btn-primary" onclick="hexDecode()">Decode</button>
+                        <button class="btn btn-info" onclick="hexEncode()">Encode</button>
+                    <button class="btn btn-info" onclick="hexDecode()">Decode</button>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="output" rows="8"></textarea>
+                        <textarea class="bg-light text-monospace form-control form-control-sm" id="output" rows="8"></textarea>
                     </div>
                 </div>
         </div>
@@ -64,7 +65,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
+    <!-- for textarea -->
+    <script src="assets/js/jquery.numberedtextarea.js"></script>
+    <script>
+        $('textarea').numberedtextarea();
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#sidebar").mCustomScrollbar({

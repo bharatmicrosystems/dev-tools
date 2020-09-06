@@ -1,0 +1,27 @@
+
+div.numberedtextarea-wrapper { position: relative; }
+
+div.numberedtextarea-wrapper textarea {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.numberedtextarea-line-numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  font-size: small;
+  border-right: 1px solid grey;
+  color: grey;
+  overflow: hidden;
+}
+
+div.numberedtextarea-number {
+  padding-right: 3px;
+  text-align: right;
+}

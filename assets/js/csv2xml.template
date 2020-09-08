@@ -56,6 +56,11 @@
 			<!-- Contents -->
 			<div class="container">
                 <h1>Convert CSV to XML</h1>
+                <p>CSV is one of the most popular methods to represent data in human-readable tabular format, XML, on the other hand, is useful for machines to parse structured information. Converting CSV to XML and back helps machines and human interaction with data in their preferred way. CSV to XML converter tools helps you convert CSV to XML. CSV uses comma delimiters to separate columns and a newline character to separate rows. </p>
+                <p>The first line of the CSV is assumed as the heading, and we use a Root tag to wrap the CSV rows.</p>
+                <p>Since all conversions use Javascript, it all happens within your system. We do not store your data in our servers. The site uses TLS, so it communicates with the server via an encrypted connection.</p>
+                <p>The tool is entirely free to use; type or paste CSV on the input text area and click on CSV to XML button.</p>
+
 				<div class="form-group">
 					<textarea class="bg-light text-monospace form-control form-control-sm" id="input" rows="8"></textarea>
 				</div>
@@ -65,6 +70,7 @@
 				<div class="form-group">
 					<textarea class="bg-light text-monospace form-control form-control-sm" id="output" rows="8"></textarea>
                 </div>
+
             </div>
         </div>
         

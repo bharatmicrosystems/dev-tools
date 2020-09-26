@@ -10,10 +10,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://freedevtools.net/index.html</loc>
+    <!-- <loc>https://freedevtools.net/index.html</loc>
     <priority>0.5</priority>
     <changefreq>weekly</changefreq>
-  </url>
+  </url> -->
   <url>
     <loc>https://freedevtools.net/base64.html</loc>
     <priority>0.5</priority>
